@@ -1,0 +1,13 @@
+.hero-wrapper {
+    background-color: #EAEAEA;
+    height: 30vh;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+
+.hero-text-area {
+    background-color: #dedede;
+    padding: 5rem 0rem;
+    margin: 0rem 20%;
+    font-size: 24px;
+}

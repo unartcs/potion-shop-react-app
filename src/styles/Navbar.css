@@ -1,0 +1,25 @@
+.navbar-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 5rem;
+    align-items: center;
+    gap: 5rem;
+    background-color: #EAEAEA;
+    color: rgb(0, 0, 0);
+}
+
+.navbar-logo {
+    font-size: 36px;
+    font-weight: 900;
+
+}
+
+.navbar-menu {
+    display: flex;
+    gap: 2rem;
+    font-size: 24px;
+}
+
+.navbar-menu > li:hover {
+    cursor: pointer;
+}
