@@ -4,11 +4,14 @@ import '../styles/Navbar.css'
 function Navbar() {
   return (
     <div className='navbar-wrapper'>
-        <h1 className='navbar-logo'>JEWELS |</h1>
+        <h1 className='navbar-logo'>Alchemist Shack</h1>
         <ul className='navbar-menu'>
-            <li className='navbar home'>Home</li>
-            <li className='navbar browse'>Browse</li> 
-            <li className='navbar contact'>Contact</li>
+            <li className='menu-item'>Home</li>
+            <li className='menu-item'>Potions</li> 
+            <li className='menu-item'>Ingeridients</li>
+            <li className='menu-item'>Gallery</li>
+            <li className='menu-item'>Location</li>
+            <li className='menu-item'>Send us a raven</li>
         </ul>
     </div>
   )

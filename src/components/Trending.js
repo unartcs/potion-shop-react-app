@@ -1,5 +1,6 @@
 import React from "react";
-import '../styles/Trending.css'
+import "../styles/Trending.css";
+import TrendingData from "../data/TrendingData";
 
 function Trending() {
   return (
@@ -9,7 +10,14 @@ function Trending() {
         <span className="trending-title-line"></span>
       </div>
       <div className="trending-grid-wrapper">
-        {/* grid-box here from a JSON file */}
+        {TrendingData.map((item) => {
+          return (
+            <div className="trending-grid-box">
+              <h2 className="trending-grid-title">{item.name}</h2>
+              <p className="trending-grid-button">View more</p>
+            </div>
+          );
+        })}
       </div>
     </div>
   );
