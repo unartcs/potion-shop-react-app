@@ -6,8 +6,8 @@ function Pages() {
   return (
     <div>
         <Navbar/>
-        {/* <Home/> */}
-        <Catagories/>
+        <Home/>
+        {/* <Catagories/> */}
     </div>
   )
 }

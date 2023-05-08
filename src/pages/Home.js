@@ -9,7 +9,7 @@ function Home() {
     <div className='home-wrapper'>
         <Hero/>
         <Featured/>
-        {/* <Trending/> */}
+        <Trending/>
     </div>
   )
 }
